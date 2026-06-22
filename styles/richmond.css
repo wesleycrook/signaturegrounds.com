@@ -1043,14 +1043,14 @@ body {
 .intro {
   text-align: center; }
   .intro__heading {
-    padding: 1.25em 10px .2em; }
+    padding: 0.25em 10px 0; }
     @media only screen and (min-width: 768px) {
       .intro__heading {
         padding-left: 20px;
         padding-right: 20px; } }
     @media only screen and (min-width: 1000px) {
       .intro__heading {
-        padding-top: 1.6em; } }
+        padding-top: 1.0em; } }
     @media only screen and (min-width: 1300px) {
       .intro__heading {
         padding-top: 2em; } }
@@ -1071,7 +1071,6 @@ body {
   .intro__blurb {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     max-width: 550px;
     padding: 0 20px;
     color: #168516;
